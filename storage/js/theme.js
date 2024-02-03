@@ -19,7 +19,6 @@ function applyCustomThemeStyles() {
         styleTag.id = 'custom-theme-style';
         styleTag.textContent = `
             :root {
-                --background-image: url('${customTheme['background-image'] || ''}');
                 --font-family: '${customTheme['font-family'] || ''}', sans-serif;
                 --text-color: ${customTheme['text-color'] || '#fff'};
                 --background-color: ${customTheme['background-color'] || 'black'};
